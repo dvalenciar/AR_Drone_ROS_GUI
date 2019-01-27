@@ -12,7 +12,7 @@
 This package depends on:
 * [ardrone_autonomy package](https://github.com/AutonomyLab/ardrone_autonomy)
 * [tum_simulator](https://github.com/eborghi10/AR.Drone-ROS)
-* [GAZEBO](http://gazebosim.org/) (Version 7.0 If you install ROS Desktop-Full(Recommended) GAZEBO will be automatically installed.) 
+* [GAZEBO 7.0](http://gazebosim.org/) If you install ROS Desktop-Full, GAZEBO will be automatically installed (Recommended)
 
 ## Getting started
 
@@ -62,7 +62,9 @@ If everything went well, you should see something like this.
 
 
 ## GUI AR.Drone
-Time to fly your drone!!!. To take off, landing, and move the  AR.Drone is necessary to publish the respectively topics, such as: 
+                                       Time to fly your drone!!!.
+
+To take off, landing, and move the  AR.Drone is necessary to publish the respectively topics, such as: 
 
 * Take off
  ```
