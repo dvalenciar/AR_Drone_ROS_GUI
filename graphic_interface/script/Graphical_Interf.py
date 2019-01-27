@@ -29,9 +29,9 @@ class MainUiClass(QtGui.QMainWindow, GUI.Ui_MainWindow):
 		self.threadClass = ThreadClass()
 		self.threadClass.start()
 
-		self.TakeOffPub1 = rospy.Publisher('takeoff' , Empty, queue_size=1)
-		self.LandPub1    = rospy.Publisher('land'    , Empty, queue_size=1)
-		self.movePub1    = rospy.Publisher('cmd_vel' , Twist, queue_size=1)
+		self.TakeOffPub1 = rospy.Publisher('ardrone/takeoff' , Empty, queue_size=1)
+		self.LandPub1    = rospy.Publisher('ardrone/land'    , Empty, queue_size=1)
+		self.movePub1    = rospy.Publisher('cmd_vel'         , Twist, queue_size=1)
 		self.setvelSet   = 0.0
 
 		self.connect(self.threadClass, QtCore.SIGNAL('altitude')  , self.updateProgressAltitudeDrone)
@@ -159,7 +159,7 @@ class ThreadClass(QtCore.QThread):
 
 
 
-		rospy.Subscriber("navdata"            , Navdata   ,self.ang_callback)
+		rospy.Subscriber("ardrone/navdata"            , Navdata   ,self.ang_callback)
 		rospy.Subscriber("ground_truth/state" , Odometry  ,self.atitude_callback)
 
 
