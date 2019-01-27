@@ -64,7 +64,7 @@ If everything went well, you should see something like this.
 ## GUI AR.Drone
                                        Time to fly your drone!!!.
 
-To take off, landing, and move the  AR.Drone is necessary to publish the respectively topics, such as: 
+To take off, landing, and move the  AR.Drone is necessary to publish the correct topics, such as: 
 
 * Take off
  ```
@@ -97,8 +97,16 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 
-3. Run the GUI node
+3. Run a simulation by executing a launch file:
 ```
+$ roslaunch graphic_interface empty_world.launch 
+```
+
+4. Run the GUI node
+
+Open a new terminal 
+```
+$ source devel/setup.bash
 $ rosrun graphic_interface Graphical_Interf.py
 ```
 
@@ -107,4 +115,6 @@ you should see a window like this.
 
 ![](https://github.com/dvalenciar/AR_Drone_ROS_GUI/blob/master/pics/pic_2.png)
 
-That's it, now you can fly your AR.Drone in Gazebo and ROS
+That's it, now you can fly your AR.Drone in GAZEBO and ROS
+
+
