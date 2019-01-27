@@ -1,8 +1,6 @@
 # AR_DRONE_ROS_GUI
 #
-Primer Proyecto con GitHub
-prueba de GitHub para poder suber los codigos desarrollados
-Esto es un tutorial
+
 
 ## Prerequisites
 * Operation System
