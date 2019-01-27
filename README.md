@@ -60,7 +60,7 @@ $ roslaunch cvg_sim_gazebo ardrone_testworld.launch
 ```
 
 If everything went well, you should see something like this.
-![](https://github.com/dvalenciar/AR_Drone_GUI_ROS/blob/master/pics/pic_1.jpg)
+![](https://github.com/dvalenciar/AR_Drone_ROS_GUI/blob/master/pics/pic_1.jpg)
 
 
 ## GUI AR.Drone
@@ -87,7 +87,7 @@ In order to use the GUI, all you need to do is:
 
 ```
 $ cd ~/drone_simulation_ws/src
-$ git clone https://github.com/dvalenciar/Fist_Project.git
+$ git clone https://github.com/dvalenciar/AR_Drone_ROS_GUI.git
 $ cd ..
 $ catkin_make 
 ```
@@ -97,15 +97,14 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 
-3. Make the node executable 
+3. Run the GUI node
 ```
-$ 
 $ rosrun graphic_interface Graphical_Interf.py
 ```
-Run the GUI node
+
 
 you should see a window like this. 
 
-![](https://github.com/dvalenciar/AR_Drone_GUI_ROS/blob/master/pics/pic_2.png)
+![](https://github.com/dvalenciar/AR_Drone_ROS_GUI/blob/master/pics/pic_2.png)
 
 That's it, now you can fly your AR.Drone in Gazebo and ROS
