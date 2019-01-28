@@ -33,28 +33,24 @@ $ git clone  https://github.com/AutonomyLab/ardrone_autonomy          # AR. Dron
 $ git clone  https://github.com/eborghi10/AR.Drone-ROS                # Tum Simulator ROS Driver
 $ cd ..
 $ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
-
 ```
 
 3. Built the simulator
 
 ```
 $ catkin_make 
-
 ```
 
 4. Source the environment 
 
 ```
 $ source devel/setup.bash
-
 ```
 
 To check that everything has been installed correctly
 
 ```
 $ roslaunch cvg_sim_gazebo ardrone_testworld.launch
-
 ```
 
 If everything went well, you should see something like this.
