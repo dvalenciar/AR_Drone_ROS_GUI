@@ -113,7 +113,7 @@ $ rosrun graphic_interface Graphical_Interf.py
 
 you should see a window like this. 
 
-![](https://github.com/dvalenciar/AR_Drone_ROS_GUI/blob/master/pics/pic_2.png)
+![](https://github.com/dvalenciar/AR_Drone_ROS_GUI/blob/master/pics/pic_22.png)
 
 That's it, now you can fly your AR.Drone in GAZEBO and ROS
 
