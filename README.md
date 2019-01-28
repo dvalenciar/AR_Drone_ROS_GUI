@@ -109,12 +109,13 @@ Open a new terminal
 $ source devel/setup.bash
 $ rosrun graphic_interface Graphical_Interf.py
 ```
-
-
-you should see a window like this. 
+You should see a window like this. That's it, now you can fly your AR.Drone in GAZEBO and ROS
 
 ![](https://github.com/dvalenciar/AR_Drone_ROS_GUI/blob/master/pics/pic_22.png)
 
-That's it, now you can fly your AR.Drone in GAZEBO and ROS
 
+
+In the following link, you will find  a video of the GUI  working
+
+https://www.youtube.com/watch?v=qxGp6NbNIOg
 
