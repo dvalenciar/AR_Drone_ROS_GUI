@@ -115,8 +115,8 @@ In the following link, you will find  a video of the GUI  working
 
 https://www.youtube.com/watch?v=qxGp6NbNIOg
 
-## Autonomous Navigation##
+## Autonomous Navigation ##
 
-In this repository, you can download a simulation source code for AR.Drone Autonomous Navigation. 
-[Belbic Controller](https://github.com/dvalenciar/BELBIC_Controller_ROS)
+In this repository ([Belbic Controller](https://github.com/dvalenciar/BELBIC_Controller_ROS)), you can download a simulation source code for AR.Drone Autonomous Navigation. 
+
 
