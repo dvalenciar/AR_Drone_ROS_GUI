@@ -2,7 +2,7 @@
 #
 
 
-## Prerequisites
+## Pre-requisites
 * Operation System
   * Ubuntu 16.04
   
